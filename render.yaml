@@ -1,0 +1,49 @@
+services:
+  - type: web
+    name: healderm-wound-api
+    runtime: python
+    plan: free
+    region: oregon
+    rootDir: .
+    buildCommand: pip install -r backend/requirements-wound.txt
+    startCommand: cd backend/wound_ai_system && uvicorn api:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    autoDeployTrigger: commit
+    buildFilter:
+      paths:
+        - backend/wound_ai_system/**
+        - backend/requirements-wound.txt
+        - render.yaml
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.11
+      - key: CORS_ORIGINS
+        sync: false
+      - key: WOUND_UPLOAD_DIR
+        value: /opt/render/project/src/backend/wound_ai_system/uploaded_images
+      - key: WOUND_DATABASE_DIR
+        value: /opt/render/project/src/backend/wound_ai_system/database
+
+  - type: web
+    name: healderm-skin-api
+    runtime: python
+    plan: free
+    region: oregon
+    rootDir: .
+    buildCommand: pip install -r backend/requirements-skin.txt
+    startCommand: cd backend && uvicorn api_skin:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    autoDeployTrigger: commit
+    buildFilter:
+      paths:
+        - backend/api_skin.py
+        - backend/requirements-skin.txt
+        - machine-learning/best_phase1.keras
+        - render.yaml
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.11
+      - key: CORS_ORIGINS
+        sync: false
+      - key: SKIN_MODEL_PATH
+        value: /opt/render/project/src/machine-learning/best_phase1.keras

@@ -49,6 +49,36 @@ If you want to override it:
 export SKIN_MODEL_PATH=/absolute/path/to/best_phase1.keras
 ```
 
+## Render Deployment
+
+A Render Blueprint file is included at [render.yaml](/Users/heeraljiwnani/HealDerm AI/render.yaml).
+
+It defines two Python web services:
+
+- `healderm-wound-api`
+- `healderm-skin-api`
+
+Both services are configured with:
+
+- `healthCheckPath`
+- `PYTHON_VERSION`
+- Render-compatible `startCommand` using `0.0.0.0` and `$PORT`
+- build filters for this monorepo layout
+
+Before deploying on Render, set `CORS_ORIGINS` for each service to your frontend URL, for example:
+
+```bash
+https://your-frontend.onrender.com
+```
+
+The skin API is configured to load the model from:
+
+```bash
+/opt/render/project/src/machine-learning/best_phase1.keras
+```
+
+If you change the model location later, update `SKIN_MODEL_PATH`.
+
 ## Machine Learning
 
 [machine-learning/DFU.ipynb](/Users/heeraljiwnani/HealDerm AI/machine-learning/DFU.ipynb) contains the DFU grading notebook.

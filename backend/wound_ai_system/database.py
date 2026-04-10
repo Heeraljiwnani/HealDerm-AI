@@ -1,9 +1,14 @@
 from tinydb import TinyDB, Query
 from datetime import datetime
 import os
+from pathlib import Path
 
-os.makedirs("database", exist_ok=True)
-db = TinyDB("database/wound_records.json")
+BASE_DIR = Path(__file__).resolve().parent
+DATABASE_DIR = Path(os.getenv("WOUND_DATABASE_DIR", str(BASE_DIR / "database")))
+DATABASE_DIR.mkdir(parents=True, exist_ok=True)
+DB_PATH = Path(os.getenv("WOUND_DATABASE_PATH", str(DATABASE_DIR / "wound_records.json")))
+
+db = TinyDB(DB_PATH)
 patients_table    = db.table("patients")
 assessments_table = db.table("assessments")
 

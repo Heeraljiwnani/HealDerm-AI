@@ -10,15 +10,21 @@ from database import add_patient, save_assessment, get_patient_history
 app = FastAPI(title="Wound Assessment API")
 
 BASE_DIR = Path(__file__).resolve().parent
-UPLOAD_FOLDER = BASE_DIR / "uploaded_images"
+UPLOAD_FOLDER = Path(os.getenv("WOUND_UPLOAD_DIR", str(BASE_DIR / "uploaded_images")))
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+
+CORS_ORIGINS = [
+    origin.strip()
+    for origin in os.getenv(
+        "CORS_ORIGINS",
+        "http://localhost:5173,http://127.0.0.1:5173"
+    ).split(",")
+    if origin.strip()
+]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "http://127.0.0.1:5173",
-    ],
+    allow_origins=CORS_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -27,6 +33,10 @@ app.add_middleware(
 @app.get("/")
 def home():
     return {"message": "Wound Assessment API is running!"}
+
+@app.get("/health")
+def health():
+    return {"status": "OK"}
 
 @app.post("/add-patient")
 def create_patient(
