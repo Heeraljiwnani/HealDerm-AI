@@ -1,0 +1,286 @@
+{
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How it Works",
+    "impact": "Our Impact",
+    "login": "Log In",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "badge": "AI-Powered Wound & Skin Care",
+    "title1": "Advanced Dermatological Care,",
+    "title2": "Right in Your Pocket.",
+    "subtitle": "Automated wound healing analysis, structured data management, and early risk detection without leaving home. Our AI platform brings expert-level skin assessment to your smartphone.",
+    "downloadApp": "Download App",
+    "viewDemo": "View Demo",
+    "stat1Value": "98%",
+    "stat1Label": "Accuracy Rate",
+    "stat2Value": "24/7",
+    "stat2Label": "Continuous Tracking",
+    "stat3Value": "0",
+    "stat3Label": "Unnecessary Hospital Visits",
+    "mockupBadge": "Low Risk: Self-Care Guidance"
+  },
+  "problem": {
+    "badge": "The Challenge",
+    "title": "Why Wound Care Needs a Revolution",
+    "subtitle": "Millions suffer from preventable complications due to limited access to consistent, high-quality dermatological care.",
+    "card1Title": "Late Detection",
+    "card1Desc": "Wound infections and skin complications are often detected late due to infrequent clinical monitoring and reliance on inaccurate visual self-assessments.",
+    "card2Title": "Uneven Access",
+    "card2Desc": "Dermatology and wound care services are unevenly distributed, with rural and semi-urban areas facing major shortages of specialized healthcare professionals.",
+    "card3Title": "Poor Follow-up",
+    "card3Desc": "Non-adherence to care routines and missing historical data lead to preventable complications, while existing solutions lack continuous tracking and management."
+  },
+  "features": {
+    "badge": "Platform Features",
+    "title": "Comprehensive Care Management",
+    "subtitle": "Our AI-powered platform provides end-to-end solutions for both immediate assessment and long-term management.",
+    "tabCore": "Core AI Detection",
+    "tabManage": "Care & Data Management",
+    "core1Title": "AI Wound Healing Assessment",
+    "core1Desc": "Computer vision models analyze imagery for wound size, color variation, tissue changes, and signs of infection or inflammation.",
+    "core2Title": "Skin Ailment Detection",
+    "core2Desc": "Advanced pattern matching with known skin conditions to provide early detection and severity assessment directly from smartphone photos.",
+    "core3Title": "Severity & Risk Classification",
+    "core3Desc": "Results are instantly mapped to risk categories ranging from low-risk self-care guidance to high-risk medical escalations.",
+    "manage1Title": "Wound Data Management",
+    "manage1Item1": "Image history & progression logs",
+    "manage1Item2": "Auto-size measurement records",
+    "manage1Item3": "Healing rate analytics",
+    "manage2Title": "Skin Ailment Mgmt",
+    "manage2Item1": "Condition photo repository",
+    "manage2Item2": "Severity score tracking",
+    "manage2Item3": "Flare-up/recurrence monitoring",
+    "manage3Title": "Care Workflow",
+    "manage3Item1": "Follow-up reminders & alerts",
+    "manage3Item2": "Care task tracking (dressings)",
+    "manage3Item3": "Missed-care detection",
+    "manage4Title": "Clinical Decision Support",
+    "manage4Item1": "Risk stratification dashboard",
+    "manage4Item2": "Abnormal healing alerts",
+    "manage4Item3": "Auto clinical summaries"
+  },
+  "users": {
+    "badge": "Who It's For",
+    "title": "Empowering Patients and Providers Alike",
+    "subtitle": "HealDerm AI serves a critical role across the entire care continuum, from home self-management to clinical decision support.",
+    "button": "See Use Cases",
+    "user1Title": "Diabetic Patients",
+    "user1Desc": "For tracking chronic diabetic ulcers and preventing deterioration.",
+    "user2Title": "Post-Operative Patients",
+    "user2Desc": "Remote monitoring of surgical wounds and incision sites.",
+    "user3Title": "Chronic Skin Conditions",
+    "user3Desc": "Managing recurring ailments like eczema, psoriasis, or severe acne.",
+    "user4Title": "Rural Healthcare Providers",
+    "user4Desc": "Empowering clinics to deliver specialist-level dermatological care.",
+    "user5Title": "Caregivers & Family",
+    "user5Desc": "Giving peace of mind to those managing elderly or dependent care."
+  },
+  "footer": {
+    "desc": "Transforming wound care and dermatology through AI-driven continuous monitoring and structured care management.",
+    "platform": "Platform",
+    "features": "Features",
+    "clinical": "Clinical Validation",
+    "integrations": "Integrations",
+    "pricing": "Pricing",
+    "resources": "Resources",
+    "help": "Help Center",
+    "docs": "Documentation",
+    "blog": "Blog",
+    "caseStudies": "Case Studies",
+    "company": "Company",
+    "about": "About Us",
+    "careers": "Careers",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "copyright": "HealDerm AI. All rights reserved.",
+    "madeFor": "Made for the future of healthcare."
+  },
+  "dashboard": {
+    "nav": {
+      "home": "Overview",
+      "assessments": "Assessments",
+      "management": "Management",
+      "workflow": "Workflow",
+      "alerts": "Alerts"
+    },
+    "user": {
+      "myAccount": "My Account",
+      "settings": "Settings"
+    },
+    "settings": {
+      "title": "Account Settings",
+      "desc": "Manage your profile basics and dashboard preferences.",
+      "profileTitle": "Profile",
+      "preferencesTitle": "Preferences",
+      "roleTitle": "Workspace role",
+      "themeTitle": "Theme mode",
+      "themeDesc": "Switch between light and dark mode for the whole dashboard.",
+      "languageTitle": "Language",
+      "languageDesc": "Toggle the dashboard language between English and Hindi."
+    },
+    "alerts": {
+      "title": "Alerts Center",
+      "desc": "Stay on top of missed care steps, review reminders, and recent clinical signals.",
+      "priorityTitle": "Priority alerts",
+      "summaryTitle": "Suggested actions",
+      "items": {
+        "missedCareTitle": "Care task missed",
+        "missedCareDesc": "The morning saline cleaning task was not marked complete.",
+        "followupTitle": "Follow-up approaching",
+        "followupDesc": "A dressing change reminder is scheduled for the next care window.",
+        "stableTitle": "Recent scan stable",
+        "stableDesc": "The latest assessment suggests the case is currently stable."
+      },
+      "summary": {
+        "item1Title": "Review the latest alert first",
+        "item1Desc": "Start with missed tasks or high-risk changes so action can happen faster.",
+        "item2Title": "Confirm the next routine",
+        "item2Desc": "Use reminders to keep regular wound care and follow-up on schedule.",
+        "item3Title": "Track whether things are improving",
+        "item3Desc": "Compare recent scans and notes to see if healing is progressing."
+      }
+    },
+    "provider": {
+      "nav": {
+        "home": "Provider Hub",
+        "management": "Patients",
+        "alerts": "Clinical Alerts"
+      }
+    },
+    "home": {
+      "safeBadge": "Care dashboard ready",
+      "greeting": "Welcome back, {{name}}",
+      "subtitle": "Here is your care hub. You can start a new wound scan, review healing history, manage routines, and keep an eye on important alerts from one place.",
+      "servicesTitle": "Available Services",
+      "servicesSubtitle": "Choose what you want to do next.",
+      "stats": {
+        "services": "Services Available",
+        "activeTrackers": "Active Trackers",
+        "reminders": "Today's Reminders"
+      },
+      "services": {
+        "assessments": {
+          "title": "AI Assessments",
+          "desc": "Upload wound or skin images and get instant analysis results.",
+          "cta": "Start assessment"
+        },
+        "management": {
+          "title": "Progress Tracking",
+          "desc": "Review healing history, severity changes, and saved records.",
+          "cta": "Open tracking"
+        },
+        "workflow": {
+          "title": "Care Workflow",
+          "desc": "See routines, follow-up tasks, and scheduled reminders.",
+          "cta": "View workflow"
+        },
+        "alerts": {
+          "title": "Alerts Center",
+          "desc": "Check important care notifications and missed actions.",
+          "cta": "See alerts"
+        }
+      },
+      "quickStartTitle": "How to get started",
+      "quickStart": {
+        "step1Title": "Upload a new wound image",
+        "step1Desc": "Begin with an assessment to generate fresh clinical signals.",
+        "step2Title": "Track healing changes",
+        "step2Desc": "Review how wound size, severity, and risk are moving over time.",
+        "step3Title": "Stay on top of routines",
+        "step3Desc": "Use reminders and alerts to avoid missed care steps."
+      },
+      "todayTitle": "Today at a glance",
+      "today": {
+        "item1Title": "Morning care check-in",
+        "item1Desc": "Review your latest wound status and upload a fresh image if needed.",
+        "item2Title": "Dressing change reminder",
+        "item2Desc": "Scheduled follow-up task from your care workflow.",
+        "item3Title": "Progress review",
+        "item3Desc": "Look at recent trends in healing and severity."
+      }
+    },
+    "assessments": {
+      "tabWound": "Wound Healing Assessment",
+      "tabSkin": "Skin Ailment Detection",
+      "newAssessment": "New Assessment",
+      "uploadWound": "Upload an image of your wound for instant AI analysis.",
+      "uploadSkin": "Upload an image of your skin condition for instant AI analysis.",
+      "clickUpload": "Click to upload",
+      "dragDrop": "or drag and drop",
+      "analyzeBtn": "Analyze Image",
+      "scanning": "Scanning...",
+      "recentResults": "Recent Scan Results",
+      "awaitingScan": "Awaiting new scan...",
+      "scanFailed": "We couldn't reach the wound analysis API. Make sure the FastAPI server is running.",
+      "skinScanFailed": "We couldn't reach the skin analysis API. Make sure `api_skin.py` is running.",
+      "skinModelPending": "The current backend integration supports wound analysis only. Skin detection can be connected next.",
+      "skinConnected": "Skin detection is now wired to the DFU grading API.",
+      "skinPrediction": "Predicted Grade",
+      "skinConfidence": "Confidence",
+      "skinClasses": "Available Classes",
+      "skinResultNote": "This result comes from the DFU grading model defined in DFU.ipynb.",
+      "tissueType": "Tissue Type",
+      "sizeCategory": "Size Category",
+      "woundArea": "Wound Area",
+      "rednessIndex": "Redness Index",
+      "riskLevel": "Risk Level",
+      "severityScore": "Severity Score",
+      "healingSignal": "Estimated healing signal: {{value}}%",
+      "woundType": "Wound Type",
+      "healingStage": "Healing Stage",
+      "possibleComps": "Possible Complications",
+      "overallProgress": "Overall Healing Progress",
+      "detectedCondition": "Detected Condition",
+      "recommendation": "Recommendation",
+      "highRiskDesc": "This scan indicates a high risk factor based on redness and scaling patterns.",
+      "bookConsult": "Book Teleconsultation",
+      "moderateRisk": "Moderate Risk",
+      "highSeverity": "High Severity"
+    },
+    "management": {
+      "tabWound": "Wound Progression Tracking",
+      "tabSkin": "Skin Ailment Tracking",
+      "woundLogsTitle": "Wound Progression Logs",
+      "woundLogsDesc": "Select a tracked wound to view its date-based logs and analytics.",
+      "recordWound": "Record New Wound",
+      "healingAnalytics": "Healing Analytics",
+      "totalReduction": "Total Size Reduction",
+      "initialSize": "Initial Size",
+      "currentSize": "Current Size",
+      "healingRate": "Healing Rate",
+      "dateProgression": "Date-Based Progression",
+      "addLog": "Add Log Entry",
+      "historyRepo": "History Repository",
+      "autoMeasured": "Auto-measured",
+      "skinTitle": "Skin Ailment Management",
+      "skinDesc": "Maintain tracking, prescriptions, and flare-up history per disease.",
+      "recordAilment": "Record New Ailment",
+      "diagnosisDetails": "Diagnosis Details",
+      "diagnosis": "Diagnosis",
+      "estTime": "Est. Healing Time",
+      "symptoms": "Ongoing Symptoms",
+      "uploadDoc": "Upload Prescription / Diagnosis",
+      "uploadImage": "Upload Skin Image",
+      "timelineTitle": "Flare-up & Progression Timeline",
+      "logSymptom": "Log Symptom",
+      "ailmentRepo": "Ailment History Repository"
+    },
+    "workflow": {
+      "title": "Care Workflow Management",
+      "desc": "Daily treatment routines and scheduled tasks.",
+      "missedAlert": "Missed Care Alert",
+      "missedDesc": "Morning Saline Cleaning missed.",
+      "scheduledFor": "Scheduled for 08:00 AM today.",
+      "markDone": "Mark as Done Now",
+      "upcomingReminders": "Upcoming Reminders",
+      "dermFollowup": "Dermatologist Follow-up",
+      "tomorrow": "Tomorrow",
+      "todayTasks": "Today's Tasks",
+      "completed": "Completed",
+      "customTask": "+ Custom Care Task",
+      "upcoming": "Upcoming"
+    }
+  }
+}

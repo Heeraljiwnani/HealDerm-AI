@@ -1,0 +1,119 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px 0;
+  background: hsla(var(--surface-color), 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  z-index: 1000;
+  border-bottom: 1px solid hsla(var(--text-main), 0.05);
+  transition: all var(--transition);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-sm);
+  object-fit: contain;
+  mix-blend-mode: multiply; /* Makes white background transparent */
+}
+
+[data-theme='dark'] .logo-img {
+  filter: invert(1) hue-rotate(180deg); /* Inverts the white bg to black (which blends with dark navbar) and restores the original cyan/blue hue */
+  mix-blend-mode: screen; /* Drops the black background */
+}
+
+.logo-text {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: hsl(var(--text-main));
+  letter-spacing: -0.02em;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-link {
+  color: hsl(var(--text-muted));
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 0.95rem;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: hsl(var(--primary));
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: hsl(var(--primary));
+  transition: width var(--transition);
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar-actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: hsl(var(--text-main));
+  padding: 8px;
+  border-radius: var(--radius-full);
+  transition: all var(--transition);
+}
+
+.icon-btn:hover {
+  background: hsla(var(--primary), 0.1);
+  color: hsl(var(--primary));
+}
+
+.lang-text {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav-btn {
+  padding: 8px 20px;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+  .d-md-none {
+    display: none;
+  }
+}

@@ -1,0 +1,286 @@
+{
+    "nav": {
+        "features": "विशेषताएं",
+        "howItWorks": "यह कैसे काम करता है",
+        "impact": "हमारा प्रभाव",
+        "login": "लॉग इन करें",
+        "getStarted": "शुरू करें"
+    },
+    "hero": {
+        "badge": "एआई-संचालित घाव और त्वचा देखभाल",
+        "title1": "उन्नत त्वचा देखभाल,",
+        "title2": "सीधे आपकी जेब में।",
+        "subtitle": "स्वचालित घाव भरने का विश्लेषण, संरचित डेटा प्रबंधन, और बिना घर छोड़े प्रारंभिक जोखिम का पता लगाना। हमारा एआई प्लेटफॉर्म आपके स्मार्टफोन पर विशेषज्ञ स्तर का त्वचा मूल्यांकन लाता है।",
+        "downloadApp": "ऐप डाउनलोड करें",
+        "viewDemo": "डेमो देखें",
+        "stat1Value": "98%",
+        "stat1Label": "सटीकता दर",
+        "stat2Value": "24/7",
+        "stat2Label": "निरंतर ट्रैकिंग",
+        "stat3Value": "0",
+        "stat3Label": "अनावश्यक अस्पताल दौरे",
+        "mockupBadge": "कम जोखिम: स्व-देखभाल मार्गदर्शन"
+    },
+    "problem": {
+        "badge": "चुनौती",
+        "title": "घाव की देखभाल में क्रांति की आवश्यकता क्यों है",
+        "subtitle": "सुसंगत, उच्च-गुणवत्ता वाली त्वचा देखभाल तक सीमित पहुंच के कारण लाखों लोग रोके जा सकने वाली जटिलताओं से पीड़ित हैं।",
+        "card1Title": "देर से पता लगना",
+        "card1Desc": "अक्सर क्लीनिकल निगरानी की कमी और गलत दृश्य स्व-आकलन पर निर्भरता के कारण घाव के संक्रमण और त्वचा की जटिलताओं का पता देर से चलता है।",
+        "card2Title": "असमान पहुंच",
+        "card2Desc": "त्वचा विज्ञान और घाव देखभाल सेवाएं असमान रूप से वितरित हैं, जिसमें ग्रामीण और अर्ध-शहरी क्षेत्रों को विशेष स्वास्थ्य पेशेवरों की भारी कमी का सामना करना पड़ता है।",
+        "card3Title": "खराब अनुवर्ती कार्रवाई",
+        "card3Desc": "देखभाल दिनचर्या का पालन न करने और ऐतिहासिक डेटा की कमी से रोकथाम योग्य जटिलताएं उत्पन्न होती हैं, जबकि मौजूदा समाधानों में निरंतर ट्रैकिंग और प्रबंधन की कमी है।"
+    },
+    "features": {
+        "badge": "प्लेटफॉर्म की विशेषताएं",
+        "title": "व्यापक देखभाल प्रबंधन",
+        "subtitle": "हमारा एआई-संचालित प्लेटफॉर्म तत्काल मूल्यांकन और दीर्घकालिक प्रबंधन दोनों के लिए एंड-टू-एंड समाधान प्रदान करता है।",
+        "tabCore": "प्रमुख एआई डिटेक्शन",
+        "tabManage": "देखभाल और डेटा प्रबंधन",
+        "core1Title": "एआई घाव उपचार मूल्यांकन",
+        "core1Desc": "कंप्यूटर विजन मॉडल घाव के आकार, रंग भिन्नता, ऊतक परिवर्तन और संक्रमण या सूजन के लक्षणों के लिए इमेजरी का विश्लेषण करते हैं।",
+        "core2Title": "त्वचा की बीमारी का पता लगाना",
+        "core2Desc": "सीधे स्मार्टफोन तस्वीरों से शीघ्र पता लगाने और गंभीरता का आकलन प्रदान करने के लिए ज्ञात त्वचा स्थितियों के साथ उन्नत पैटर्न मिलान।",
+        "core3Title": "गंभीरता और जोखिम वर्गीकरण",
+        "core3Desc": "परिणामों को तुरंत कम-जोखिम वाले स्व-देखभाल मार्गदर्शन से लेकर उच्च-जोखिम वाले चिकित्सा एस्केलेशन तक जोखिम श्रेणियों में मैप किया जाता है।",
+        "manage1Title": "घाव डेटा प्रबंधन",
+        "manage1Item1": "छवि इतिहास और प्रगति लॉग",
+        "manage1Item2": "ऑटो-आकार माप रिकॉर्ड",
+        "manage1Item3": "उपचार दर विश्लेषिकी",
+        "manage2Title": "त्वचा रोग प्रबंधन",
+        "manage2Item1": "स्थिति फोटो रिपॉजिटरी",
+        "manage2Item2": "गंभीरता स्कोर ट्रैकिंग",
+        "manage2Item3": "फ्लेयर-अप/पुनरावृत्ति निगरानी",
+        "manage3Title": "केयर वर्कफ़्लो",
+        "manage3Item1": "फॉलो-अप रिमाइंडर और अलर्ट",
+        "manage3Item2": "केयर टास्क ट्रैकिंग (ड्रेसिंग)",
+        "manage3Item3": "छूटी हुई देखभाल का पता लगाना",
+        "manage4Title": "क्लिनिकल निर्णय समर्थन",
+        "manage4Item1": "जोखिम स्तरीकरण डैशबोर्ड",
+        "manage4Item2": "असामान्य उपचार अलर्ट",
+        "manage4Item3": "ऑटो क्लिनिकल सारांश"
+    },
+    "users": {
+        "badge": "यह किसके लिए है",
+        "title": "मरीजों और प्रदाताओं को समान रूप से सशक्त बनाना",
+        "subtitle": "HealDerm AI घर के प्रबंधन से लेकर नैदानिक निर्णय समर्थन तक संपूर्ण देखभाल सातत्य में एक महत्वपूर्ण भूमिका निभाता है।",
+        "button": "उपयोग के मामले देखें",
+        "user1Title": "मधुमेह के मरीज",
+        "user1Desc": "पुराने मधुमेह के अल्सर को ट्रैक करना और बिगड़ने से रोकना।",
+        "user2Title": "सर्जरी के बाद के मरीज",
+        "user2Desc": "सर्जिकल घावों और चीरा साइटों की दूरस्थ निगरानी।",
+        "user3Title": "पुरानी त्वचा की स्थिति",
+        "user3Desc": "एक्जिमा, सोरायसिस, या गंभीर मुँहासे जैसी आवर्ती बीमारियों का प्रबंधन।",
+        "user4Title": "ग्रामीण स्वास्थ्य सेवा प्रदाता",
+        "user4Desc": "क्लिनिकों को विशेषज्ञ स्तर की त्वचा देखभाल प्रदान करने के लिए सशक्त बनाना।",
+        "user5Title": "देखभाल करने वाले और परिवार",
+        "user5Desc": "बुजुर्गों या आश्रित देखभाल का प्रबंधन करने वालों को मानसिक शांति देना।"
+    },
+    "footer": {
+        "desc": "एआई-संचालित निरंतर निगरानी और संरचित देखभाल प्रबंधन के माध्यम से घाव देखभाल और त्वचाविज्ञान को बदलना।",
+        "platform": "प्लेटफार्म",
+        "features": "विशेषताएं",
+        "clinical": "क्लिनिकल सत्यापन",
+        "integrations": "एकीकरण",
+        "pricing": "मूल्य निर्धारण",
+        "resources": "संसाधन",
+        "help": "सहायता केंद्र",
+        "docs": "दस्तावेज़ीकरण",
+        "blog": "ब्लॉग",
+        "caseStudies": "विशिष्ट अध्ययन",
+        "company": "कंपनी",
+        "about": "हमारे बारे में",
+        "careers": "करियर",
+        "contact": "संपर्क करें",
+        "privacy": "गोपनीयता नीति",
+        "copyright": "HealDerm AI. सर्वाधिकार सुरक्षित।",
+        "madeFor": "स्वास्थ्य देखभाल के भविष्य के लिए बनाया गया।"
+    },
+    "dashboard": {
+        "nav": {
+            "home": "ओवरव्यू",
+            "assessments": "मूल्यांकन",
+            "management": "प्रबंधन",
+            "workflow": "कार्यप्रवाह",
+            "alerts": "अलर्ट"
+        },
+        "user": {
+            "myAccount": "मेरा खाता",
+            "settings": "समायोजन"
+        },
+        "settings": {
+            "title": "अकाउंट सेटिंग्स",
+            "desc": "अपनी प्रोफाइल की मूल जानकारी और डैशबोर्ड प्राथमिकताएं प्रबंधित करें।",
+            "profileTitle": "प्रोफाइल",
+            "preferencesTitle": "पसंद",
+            "roleTitle": "वर्कस्पेस भूमिका",
+            "themeTitle": "थीम मोड",
+            "themeDesc": "पूरे डैशबोर्ड के लिए light और dark mode के बीच स्विच करें।",
+            "languageTitle": "भाषा",
+            "languageDesc": "डैशबोर्ड भाषा को English और Hindi के बीच बदलें।"
+        },
+        "alerts": {
+            "title": "अलर्ट सेंटर",
+            "desc": "मिस्ड care steps, review reminders और recent clinical signals पर नज़र रखें।",
+            "priorityTitle": "प्राथमिक अलर्ट",
+            "summaryTitle": "सुझाए गए कदम",
+            "items": {
+                "missedCareTitle": "केयर टास्क छूटा",
+                "missedCareDesc": "सुबह की saline cleaning task को complete मार्क नहीं किया गया।",
+                "followupTitle": "फॉलो-अप निकट है",
+                "followupDesc": "अगले care window के लिए dressing change reminder तय है।",
+                "stableTitle": "हालिया स्कैन स्थिर है",
+                "stableDesc": "नवीनतम assessment बताता है कि केस अभी स्थिर है।"
+            },
+            "summary": {
+                "item1Title": "पहले नवीनतम alert देखें",
+                "item1Desc": "मिस्ड tasks या high-risk changes से शुरुआत करें ताकि जल्दी कार्रवाई हो सके।",
+                "item2Title": "अगली routine की पुष्टि करें",
+                "item2Desc": "नियमित wound care और follow-up को schedule पर रखने के लिए reminders का उपयोग करें।",
+                "item3Title": "देखें कि सुधार हो रहा है या नहीं",
+                "item3Desc": "हाल की scans और notes की तुलना करके healing progress समझें।"
+            }
+        },
+        "provider": {
+            "nav": {
+                "home": "प्रोवाइडर हब",
+                "management": "मरीज",
+                "alerts": "क्लिनिकल अलर्ट"
+            }
+        },
+        "home": {
+            "safeBadge": "केयर डैशबोर्ड तैयार है",
+            "greeting": "वापसी पर स्वागत है, {{name}}",
+            "subtitle": "यह आपका केयर हब है। यहां से आप नया wound scan शुरू कर सकते हैं, healing history देख सकते हैं, routines manage कर सकते हैं और important alerts पर नज़र रख सकते हैं।",
+            "servicesTitle": "उपलब्ध सेवाएं",
+            "servicesSubtitle": "अगला क्या करना है, चुनें।",
+            "stats": {
+                "services": "उपलब्ध सेवाएं",
+                "activeTrackers": "सक्रिय ट्रैकर्स",
+                "reminders": "आज के रिमाइंडर्स"
+            },
+            "services": {
+                "assessments": {
+                    "title": "एआई मूल्यांकन",
+                    "desc": "Wound या skin images अपलोड करें और तुरंत analysis results पाएं।",
+                    "cta": "मूल्यांकन शुरू करें"
+                },
+                "management": {
+                    "title": "प्रगति ट्रैकिंग",
+                    "desc": "Healing history, severity changes और saved records देखें।",
+                    "cta": "ट्रैकिंग खोलें"
+                },
+                "workflow": {
+                    "title": "केयर वर्कफ़्लो",
+                    "desc": "Routines, follow-up tasks और scheduled reminders देखें।",
+                    "cta": "वर्कफ़्लो देखें"
+                },
+                "alerts": {
+                    "title": "अलर्ट सेंटर",
+                    "desc": "Important care notifications और missed actions देखें।",
+                    "cta": "अलर्ट देखें"
+                }
+            },
+            "quickStartTitle": "शुरू कैसे करें",
+            "quickStart": {
+                "step1Title": "नई wound image अपलोड करें",
+                "step1Desc": "नया assessment शुरू करें ताकि fresh clinical signals मिल सकें।",
+                "step2Title": "Healing changes ट्रैक करें",
+                "step2Desc": "देखें कि wound size, severity और risk समय के साथ कैसे बदल रहे हैं।",
+                "step3Title": "Routines पर बने रहें",
+                "step3Desc": "Reminders और alerts का उपयोग करके care steps मिस होने से बचें।"
+            },
+            "todayTitle": "आज की झलक",
+            "today": {
+                "item1Title": "सुबह का care check-in",
+                "item1Desc": "अपना latest wound status देखें और जरूरत हो तो नई image अपलोड करें।",
+                "item2Title": "Dressing change reminder",
+                "item2Desc": "यह आपके care workflow का scheduled follow-up task है।",
+                "item3Title": "Progress review",
+                "item3Desc": "Healing और severity के recent trends देखें।"
+            }
+        },
+        "assessments": {
+            "tabWound": "घाव भरने का मूल्यांकन",
+            "tabSkin": "त्वचा रोग का पता लगाना",
+            "newAssessment": "नया मूल्यांकन",
+            "uploadWound": "त्वरित एआई विश्लेषण के लिए अपने घाव की छवि अपलोड करें।",
+            "uploadSkin": "त्वरित एआई विश्लेषण के लिए अपनी त्वचा की स्थिति की छवि अपलोड करें।",
+            "clickUpload": "अपलोड करने के लिए क्लिक करें",
+            "dragDrop": "या खींचें और छोड़ें",
+            "analyzeBtn": "छवि का विश्लेषण करें",
+            "scanning": "स्कैन किया जा रहा है...",
+            "recentResults": "हाल के स्कैन परिणाम",
+            "awaitingScan": "नए स्कैन की प्रतीक्षा है...",
+            "scanFailed": "घाव विश्लेषण API से कनेक्ट नहीं हो सका। कृपया FastAPI सर्वर चालू है या नहीं, यह जांचें।",
+            "skinScanFailed": "Skin analysis API से कनेक्ट नहीं हो सका। कृपया `api_skin.py` चल रहा है या नहीं, यह जांचें।",
+            "skinModelPending": "अभी का बैकएंड इंटीग्रेशन केवल wound analysis को सपोर्ट करता है। Skin detection को अगला जोड़ा जा सकता है।",
+            "skinConnected": "Skin detection अब DFU grading API से जुड़ चुका है।",
+            "skinPrediction": "अनुमानित ग्रेड",
+            "skinConfidence": "विश्वास स्तर",
+            "skinClasses": "उपलब्ध वर्ग",
+            "skinResultNote": "यह परिणाम DFU.ipynb में defined DFU grading model से आता है।",
+            "tissueType": "ऊतक प्रकार",
+            "sizeCategory": "आकार श्रेणी",
+            "woundArea": "घाव का क्षेत्रफल",
+            "rednessIndex": "लालिमा सूचकांक",
+            "riskLevel": "जोखिम स्तर",
+            "severityScore": "गंभीरता स्कोर",
+            "healingSignal": "अनुमानित healing signal: {{value}}%",
+            "woundType": "घाव का प्रकार",
+            "healingStage": "उपचार का चरण",
+            "possibleComps": "संभावित जटिलताएं",
+            "overallProgress": "समग्र उपचार प्रगति",
+            "detectedCondition": "पता लगाई गई स्थिति",
+            "recommendation": "अनुशंसा",
+            "highRiskDesc": "यह स्कैन लालिमा और स्केलिंग पैटर्न के आधार पर उच्च जोखिम कारक को इंगित करता है।",
+            "bookConsult": "टेलीकंसल्टेशन बुक करें",
+            "moderateRisk": "मध्यम जोखिम",
+            "highSeverity": "उच्च गंभीरता"
+        },
+        "management": {
+            "tabWound": "घाव की प्रगति ट्रैकिंग",
+            "tabSkin": "त्वचा रोग ट्रैकिंग",
+            "woundLogsTitle": "घाव की प्रगति लॉग",
+            "woundLogsDesc": "दिनांक-आधारित लॉग और एनालिटिक्स देखने के लिए एक ट्रैक किए गए घाव का चयन करें।",
+            "recordWound": "नया घाव रिकॉर्ड करें",
+            "healingAnalytics": "उपचार विश्लेषिकी",
+            "totalReduction": "कुल आकार में कमी",
+            "initialSize": "प्रारंभिक आकार",
+            "currentSize": "वर्तमान आकार",
+            "healingRate": "उपचार दर",
+            "dateProgression": "दिनांक-आधारित प्रगति",
+            "addLog": "लॉग एंट्री जोड़ें",
+            "historyRepo": "इतिहास रिपॉजिटरी",
+            "autoMeasured": "ऑटो-मापा गया",
+            "skinTitle": "त्वचा रोग प्रबंधन",
+            "skinDesc": "प्रति रोग ट्रैकिंग, नुस्खे और फ्लेयर-अप इतिहास बनाए रखें।",
+            "recordAilment": "नई बीमारी दर्ज करें",
+            "diagnosisDetails": "निदान विवरण",
+            "diagnosis": "निदान",
+            "estTime": "अनुमानित उपचार समय",
+            "symptoms": "चल रहे लक्षण",
+            "uploadDoc": "पर्चे / निदान अपलोड करें",
+            "uploadImage": "त्वचा की छवि अपलोड करें",
+            "timelineTitle": "फ्लेयर-अप और प्रगति समयरेखा",
+            "logSymptom": "लक्षण दर्ज करें",
+            "ailmentRepo": "बीमारी का इतिहास रिपॉजिटरी"
+        },
+        "workflow": {
+            "title": "केयर वर्कफ़्लो प्रबंधन",
+            "desc": "दैनिक उपचार दिनचर्या और निर्धारित कार्य।",
+            "missedAlert": "मिस्ड केयर अलर्ट",
+            "missedDesc": "मॉर्निंग सलाइन क्लीनिंग छूट गई।",
+            "scheduledFor": "आज सुबह 08:00 बजे निर्धारित।",
+            "markDone": "अभी हो गया के रूप में चिह्नित करें",
+            "upcomingReminders": "आगामी अनुस्मारक",
+            "dermFollowup": "त्वचा विशेषज्ञ अनुवर्ती",
+            "tomorrow": "कल",
+            "todayTasks": "आज के कार्य",
+            "completed": "पूरा हो गया",
+            "customTask": "+ कस्टम केयर टास्क",
+            "upcoming": "आगामी"
+        }
+    }
+}

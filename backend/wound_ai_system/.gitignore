@@ -1,0 +1,11 @@
+venv/
+data/
+models/
+database/
+reports/
+uploaded_images/
+__pycache__/
+*.pyc
+*.pyo
+dataset_check.png
+*.zip

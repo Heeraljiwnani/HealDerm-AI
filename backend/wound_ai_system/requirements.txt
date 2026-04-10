@@ -1,0 +1,15 @@
+torch
+torchvision
+segmentation-models-pytorch
+timm
+opencv-python
+numpy
+matplotlib
+Pillow
+fastapi
+uvicorn
+python-multipart
+tinydb
+anthropic
+fpdf2
+scikit-image

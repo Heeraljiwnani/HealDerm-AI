@@ -1,0 +1,115 @@
+.problem-section {
+  padding: 100px 0;
+  background-color: hsla(var(--bg-color), 1);
+  position: relative;
+}
+
+.section-header {
+  margin-bottom: 60px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  color: hsl(var(--text-main));
+}
+
+.section-subtitle {
+  font-size: 1.125rem;
+  color: hsl(var(--text-muted));
+}
+
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.problem-card {
+  padding: 32px;
+  transition: transform var(--transition), box-shadow var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.problem-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, hsl(var(--primary)), hsl(var(--secondary)));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.problem-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+}
+
+.problem-card:hover::before {
+  transform: scaleX(1);
+}
+
+.icon-wrapper {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.icon-wrapper.alert {
+  background: hsla(var(--danger), 0.1);
+  color: hsl(var(--danger));
+}
+
+.icon-wrapper.map {
+  background: hsla(var(--warning), 0.1);
+  color: hsl(var(--warning));
+}
+
+.icon-wrapper.clock {
+  background: hsla(var(--primary), 0.1);
+  color: hsl(var(--primary));
+}
+
+.problem-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+  color: hsl(var(--text-main));
+}
+
+.problem-card p {
+  color: hsl(var(--text-muted));
+  font-size: 0.95rem;
+}
+
+@media (max-width: 992px) {
+  .problem-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .problem-grid {
+    grid-template-columns: 1fr;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+}
